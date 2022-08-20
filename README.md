@@ -4,7 +4,7 @@ Coin Exchange Parser(CEP) is a functional exchange calculation class which conve
 ~~~ruby
 require 'cep_coinbase'
 c = CEP_COINBASE.new(currency_type: 'ETH')
-c.fetch   # fetch values from server
+c.fetch   # fetch values from coinbase.com
 c.process # process fetched json values
 
 c.usd     # ETH-USD value
