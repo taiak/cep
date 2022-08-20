@@ -1,6 +1,14 @@
 # CEP COINBASE
 Coin Exchange Parser(CEP) is a functional exchange calculation class which converts json data received from coinbase.com and uses it as a class method.
 
+# Installation
+
+~~~ruby
+gem install cepc_coinbase
+~~~
+
+# Usage Example
+
 ~~~ruby
 require 'cep_coinbase'
 c = CEP_COINBASE.new(currency_type: 'ETH')
