@@ -4,7 +4,7 @@ Coin Exchange Parser(CEP) is a functional exchange calculation class which conve
 # Installation
 
 ~~~ruby
-gem install cepc_coinbase
+gem install cep_coinbase
 ~~~
 
 # Usage Example
